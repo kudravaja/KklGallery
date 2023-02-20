@@ -12,7 +12,7 @@ body {
 
 .one {
   position: relative;
-  height: 350vh;
+  height: 300vh;
   background-color: #FFFFFF;
 }
 
@@ -135,7 +135,8 @@ h1{
   background-image: url(images/BackgroundSectiontTwo.svg);
   background-repeat: no-repeat;
   background-color: #60C9EB;
-  background-position: center;
+  background-position: top center;
+  background-size: 100vw;
   background-attachment: fixed;
 }
 /* .two div {
@@ -148,17 +149,37 @@ h1{
 .image1 {
   background-size: 25vw;
   position:absolute;
-  z-index: 2;
+  z-index: 1;
   height: 25vw;
   width: 25vw;
-  scale: 25vw;
   background-image: url(images/chicken.svg);
   background-repeat: no-repeat;
   background-color: #FFFFFF;
-  /* transform: matrix3d(10, 0, 0); */
+  transform: translate3d(31vw, 34vw, 25vw) scale(0.3);
+  filter: blur(0);
+  transition: 3s;
 }
-#image1 {
-  /* background-color: #E96262; */
+
+.image1hover {
+  background-size: 25vw;
+  position:absolute;
+  z-index: 1;
+  height: 25vw;
+  width: 25vw;
+  background-repeat: no-repeat;
+  background-color: #FFFFFF;
+  transform: translate3d(-20vw, -15vw, -20vw) scale(1);
+  filter: blur(4vw);
+  transition: 3s;
+  /* transform: translate3d(31vw, 34vw, 25vw) scale(0.3);
+  filter: blur(0); */
+  background-image: url(images/paws.svg);
+}
+#image2 {
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  top: 0vw;
 }
 /* #image2 {
   background-color: #FFE600;
