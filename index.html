@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
+    <link rel="icon" type="image/png" href="images/favicon.png" />
+    <meta name="viewport" content="width=device-width">
+
+    <title>KKL</title>
+    <link rel="stylesheet" href="style.css">
+    <style media="screen">
+    html {
+      width: 100vw;
+      overflow-x: hidden;
+    }
+    body {
+      /* cursor: url("images/cursor.svg") 16 0,auto; */
+      height: 20000px;
+      width: 100vw;
+      overflow-x: hidden;
+    }
+    div {
+      /* position: fixed;
+      height: 100vh;
+      width: 100vw; */
+      /* background-image: url("images/backgroundfisrtscreen.svg");
+      background-repeat: no-repeat; */
+    }
+
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.5.0/lib/p5.js"></script>
+    <script type="text/javascript"></script>
+    <script>
+
+    // function setup() {
+    //   createCanvas(1000, 1000);
+    // }
+    //
+    // function draw() {
+    //   if (mouseIsPressed) {
+    //     fill(0);
+    //   } else {
+    //     fill(255);
+    //   }
+    //   ellipse(mouseX, mouseY, 50, 50);
+    // }
+      // const img = document.querySelector('img');
+      //
+      // window.addEventListener('scroll', () => {
+      //   const current = window.scrollTop;
+      //   img.css.clipPath = 'circle(${current + 10}vw at center)';
+      // });
+      //
+      // window.addEventListener('scroll', () => {
+      //   const current = window.scrollTop();
+      //   img.css.clipPath = ('circle', 100 +  parseInt(x / 20) + 'vw');
+      // });
+      //
+
+      // section1
+      let x;
+      $(window).on('scroll', function() {
+        x = $(window).scrollTop();
+        $('.t').css('background-size', 100 + parseInt(x / 10) + 'vw');
+      });
+
+      let y;
+      $(window).on('scroll', function() {
+        y = $(window).scrollTop();
+        $('.ttop').css('background-size', 100 + parseInt(y / 30) + 'vw');
+      });
+
+      let z;
+      $(window).on('scroll', function() {
+        z = $(window).scrollTop();
+        $('.tsecond').css('background-size', 45 + parseInt(z / 1.5) + 'vw');
+      });
+
+      window.onscroll = function() {myFunction()};
+      function myFunction() {
+        if (document.documentElement.scrollTop <0.8*window.innerHeight) {
+          document.getElementById("myP").className = "ttop";
+        }
+        else if (document.documentElement.scrollTop <2.9*window.innerHeight) {
+          document.getElementById("myP").className = "t";
+        }
+        else if (document.documentElement.scrollTop <3.5*window.innerHeight) {
+          document.getElementById("myP").className = "tsecond";
+        }
+        else {
+          document.getElementById("myP").classList.remove('tsecond');
+        }
+      }
+
+    // section2
+      let image1;
+      $(window).on('scroll', function() {
+        image1 = $(window).scrollTop();
+        $('.image1').css('scale', 100 + parseInt(x / 10) + 'vw');
+      });
+
+
+
+      window.onscroll = function() {MyFunction()};
+      function MyFunction() {
+        if (document.documentElement.scrollTop <1*window.innerHeight) {
+          document.getElementById("image1").className = "image1";
+        }
+        else if (document.documentElement.scrollTop <5*window.innerHeight) {
+          document.getElementById("image1").className = "image1";
+        }
+        else if (document.documentElement.scrollTop <20*window.innerHeight) {
+          document.getElementById("image1").className = "image1";
+        }
+        else {
+          document.getElementById("image1").classList.remove('image1');
+        }
+      }
+
+    </script>
+    </head>
+
+  <body>
+    <section class = "one" id="one">
+      <div id="myP"></div>
+      <!-- <h1> text </h1>
+      <p id ='t'> test </div> -->
+      <!-- <div class ='t'> </div> -->
+      <!-- <div class ='tactive'> </div> -->
+      <!-- <div class ={t ? 't active' : 't'}> </div> -->
+      <!-- <img src = "images/backgroundfisrtscreen.svg" alt="background"> -->
+    </section>
+    <!-- <div class ="t"> </div> -->
+    <section class = "two" id="two">
+      <div id="image1">
+        <div class="image1"></div>
+      </div>
+      <!-- <div id="image2"></div> -->
+    </section>
+  <!-- <section class = "two">
+    <div class="textstroke">
+      <div class="word1">
+        <h1>п</h1>
+        <h1>о</h1>
+        <h1>з</h1>
+        <h1>д</h1>
+        <h1>р</h1>
+        <h1>а</h1>
+        <h1>в</h1>
+        <h1>л</h1>
+        <h1>я</h1>
+        <h1>е</h1>
+        <h1>м</h1>
+          <img scr = "images/text.png" alt="text">
+      </div>
+    </div>
+  </section> -->
+  </body>
+  </html>
