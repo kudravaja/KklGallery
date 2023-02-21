@@ -70,7 +70,19 @@ body {
   background-position: center center;
   background-image: url(images/backgroundsecondcreen.svg);
   background-repeat: no-repeat;
-  transition: 0.2s;
+  transition: 0.5s;
+}
+.tsecond2{
+  position: fixed;
+  z-index: 2;
+  height: 100vh;
+  width: 100vw;
+  top: 0;
+  background-position: center center;
+  background-image: url(images/backgroundsecondcreen.svg);
+  background-repeat: no-repeat;
+  transition: 0.5s;
+  opacity: 0;
 }
 
 .ttop{
@@ -135,8 +147,9 @@ h1{
   background-image: url(images/BackgroundSectiontTwo.svg);
   background-repeat: no-repeat;
   background-color: #60C9EB;
-  background-position: top center;
-  background-size: 100vw;
+  background-position: -25vw -20vw;
+  /* background-position: top center; */
+  background-size: 150vw;
   background-attachment: fixed;
 }
 /* .two div {
@@ -159,7 +172,15 @@ h1{
   filter: blur(0);
   transition: 3s;
 }
-
+/* .image1 {
+  height:25vw;
+  width:25vw;
+  background-image: url(images/chicken.svg);
+  display:grid;
+  place-items:center;
+  position:absolute;
+  transform: translate3d(31vw, 34vw, 25vw) scale(0.3);
+} */
 .image1hover {
   background-size: 25vw;
   position:absolute;
