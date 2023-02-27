@@ -69,15 +69,14 @@
 
  $(window).on("scroll", () => {
     let image0 = $(window).scrollTop();
-    let height = parseInt($(window).height()) * 3.285;
-    let image1 = parseInt(image0) / 30;
+    let height = parseInt($(window).height()) * 3;
+    let image1 = parseInt(image0) / 3;
     console.log(image0, height, image1);
     if (image0 > height) {
-    // if ($(".two").scrollTop() > 1*window.innerHeight){
       let blur = parseInt(image1) * (0.001) +'vw'
-      let x = parseInt(image1) * (-0.03) + 'vw'
-      let y = parseInt(image1) * (0.06) + 'vw'
-      let z = parseInt(image1) * (0.03) + 'vw'
+      let x = parseInt(image1) * (-0.1) + 'vw'
+      let y = parseInt(image1) * (0.2) + 'vw'
+      let z = parseInt(image1) * (0.1) + 'vw'
       let scale = parseInt(image1/ 100) * (0.4)
       $('.image1').css('transform', `translate3d(${x},${y},${z})`, `scale3d(${scale},${scale},${scale})`);
       $('.image1').css('filter', `blur(${blur})`);
