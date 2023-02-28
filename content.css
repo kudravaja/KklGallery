@@ -23,33 +23,9 @@ body {
   font-size: 10vw;
 }
 
-/* .two {
-  position: relative;
-  height: 100vh;
-  background-color: #60C9EB;
-}
-
-.two h1 {
-  position: relative;
-  z-index: 1;
-  color: #ffffff;
-  font-size: 30vh;
-} */
-
-/* img{
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  pointer-events: none;
-  clip-path: circle(10vw at left);
-} */
-
 .t{
   position: fixed;
-  z-index: 2;
+  z-index: 16;
   height: 100vh;
   width: 100vw;
   top: 0;
@@ -61,7 +37,7 @@ body {
 
 .tsecond{
   position: fixed;
-  z-index: 2;
+  z-index: 16;
   height: 100vh;
   width: 100vw;
   top: 0;
@@ -72,7 +48,7 @@ body {
 }
 .tsecond2{
   position: fixed;
-  z-index: 2;
+  z-index: 16;
   height: 100vh;
   width: 100vw;
   top: 0;
@@ -85,63 +61,24 @@ body {
 
 .ttop{
   position: fixed;
-  z-index: 2;
+  z-index: 16;
   height: 100vh;
   width: 100vw;
   top: 0;
   background-position: center center;
   transition: 0.4s;
-  /* transform: scaleX(1.0) scaleY(1.0); */
   background-repeat: no-repeat;
   background-image: url(images/backroundtop.svg);
-  /* animation: scale 2s linear 0s 1 normal forwards;}
-
-
-@keyframes scale {
-  100% {transform: scaleX(1.5) scaleY(1.5);} */
 }
 
-/* #myP{
-  position: fixed;
-  z-index: 2;
-  height: 100vh;
-  width: 100vw;
-  background-image: url(images/backgroundfisrtscreen.svg);
-  background-repeat: no-repeat;
-} */
-
-/* section:nth-child(2) {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  background-color: inherit;
-  padding: 5vw;
-  margin-top: 50vw;
-  position: relative;
-  z-index: 3;
-} */
 h1{
   font-family: 'PatsySans';
   font-size: 100vw;
 }
 
-/* .textstroke {
-  weight: 100vw;
-  display: flex;
-  transform: matrix3d(0, 0, 0);
-  will-change: transform;
-}
-.word1 {
-  position: absolute;
-  display: flex;
-  white-space: nowrap;
-  line-height: 1em;
-} */
-
 .two {
   position: relative;
-  height: 100vh;
+  height: 500vh;
   background-image: url(images/BackgroundSectiontTwo.svg);
   background-repeat: no-repeat;
   background-color: #60C9EB;
@@ -150,58 +87,106 @@ h1{
   background-attachment: fixed;
   overflow: scroll;
 }
-/* .two div {
-  position: absolute;
-  width: 25vw;
-  height: 25vw;
-  background-color: #FFFFFF;
-  background-repeat: no-repeat;
-} */
+
 .image1 {
   background-size: 10vw;
   position: fixed;
-  left: 40vw;
-  top: 20vw;
-  z-index: 0;
+  left: 44vw;
+  top: 17vw;
+  z-index: 15;
   height: 10vw;
   width: 10vw;
   background-image: url(images/chicken.svg);
   background-repeat: no-repeat;
   background-color: #FFFFFF;
-  /* transition: 0.5s; */
+  transition: 0.1s;
 }
 
 .image2 {
   background-size: 10vw;
-  position:absolute;
-  left: 50vw;
-  top: 30vw;
-  z-index: 0;
+  position:fixed;
+  left: 45vw;
+  top: 19vw;
+  z-index: 15;
   height: 10vw;
   width: 10vw;
   background-image: url(images/paws.svg);
   background-repeat: no-repeat;
   background-color: #FFFFFF;
+  transition: 0.1s;
 }
 
 .image3 {
   background-size: 10vw;
-  position:absolute;
-  left: 50vw;
-  top: 10vw;
-  z-index: 0;
+  position:fixed;
+  left: 46vw;
+  top: 18vw;
+  z-index: 15;
   height: 10vw;
   width: 10vw;
-  background-image: url(images/3.svg);
+  background-image: url(images/2.svg);
   background-repeat: no-repeat;
   background-color: #FFFFFF;
-  transition: 0.05s;
+  transition: 0.1s;
+}
+.image4 {
+  background-size: 10vw;
+  position:fixed;
+  left: 43vw;
+  top: 16vw;
+  z-index: 14;
+  height: 10vw;
+  width: 10vw;
+  background-image: url(images/1.svg);
+  background-repeat: no-repeat;
+  background-color: #FFFFFF;
+  transition: 0.1s;
 }
 
+.image5 {
+  background-size: 10vw;
+  position:fixed;
+  left: 44vw;
+  top: 17vw;
+  z-index: 14;
+  height: 10vw;
+  width: 10vw;
+  background-image: url(images/chicken.svg);
+  background-repeat: no-repeat;
+  background-color: #FFFFFF;
+  transition: 0.1s;
+}
 
+.image6 {
+  background-size: 10vw;
+  position:fixed;
+  left: 45vw;
+  top: 19vw;
+  z-index: 14;
+  height: 10vw;
+  width: 10vw;
+  background-image: url(images/paws.svg);
+  background-repeat: no-repeat;
+  background-color: #FFFFFF;
+  transition: 0.1s;
+}
+
+.image7 {
+  background-size: 10vw;
+  position:fixed;
+  left: 46vw;
+  top: 18vw;
+  z-index: 14;
+  height: 10vw;
+  width: 10vw;
+  background-image: url(images/2.svg);
+  background-repeat: no-repeat;
+  background-color: #FFFFFF;
+  transition: 0.1s;
+}
 
 .i {
-  height: 100vh;
+  height: 500vh;
 }
 #image1 {
   position: fixed;
@@ -212,6 +197,3 @@ h1{
 #image3 {
   position: fixed;
 }
-/* #image2 {
-  background-color: #FFE600;
-} */
