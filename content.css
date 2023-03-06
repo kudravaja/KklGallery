@@ -1,4 +1,4 @@
-body {
+z-index: 11body {
   background-color: #E96262;
 }
 
@@ -81,7 +81,7 @@ h1{
   height: 500vh;
   background-image: url(images/BackgroundSectiontTwo.svg);
   background-repeat: no-repeat;
-  background-color: #60C9EB;
+  background-color: #FFFFFF;
   background-position: center;
   background-size: 140vw;
   background-attachment: fixed;
@@ -91,7 +91,7 @@ h1{
 .image1 {
   background-size: 10vw;
   position: fixed;
-  left: 44vw;
+  left: 45vw;
   top: 17vw;
   z-index: 15;
   height: 10vw;
@@ -99,54 +99,52 @@ h1{
   background-image: url(images/chicken.svg);
   background-repeat: no-repeat;
   background-color: #FFFFFF;
-  transition: 0.1s;
+  transition: 1s;
 }
-
 .image2 {
   background-size: 10vw;
   position:fixed;
-  left: 45vw;
-  top: 19vw;
+  left: 46vw;
+  top: 17vw;
   z-index: 15;
   height: 10vw;
   width: 10vw;
   background-image: url(images/paws.svg);
   background-repeat: no-repeat;
   background-color: #FFFFFF;
-  transition: 0.1s;
+  transition: 1s;
 }
-
 .image3 {
   background-size: 10vw;
   position:fixed;
   left: 46vw;
-  top: 18vw;
+  top: 20vw;
   z-index: 15;
   height: 10vw;
   width: 10vw;
   background-image: url(images/2.svg);
   background-repeat: no-repeat;
   background-color: #FFFFFF;
-  transition: 0.1s;
+  transition: 1s;
 }
 .image4 {
   background-size: 10vw;
   position:fixed;
   left: 43vw;
-  top: 16vw;
+  top: 20vw;
   z-index: 14;
   height: 10vw;
   width: 10vw;
   background-image: url(images/1.svg);
   background-repeat: no-repeat;
   background-color: #FFFFFF;
-  transition: 0.1s;
+  transition: 1s;
 }
 
 .image5 {
   background-size: 10vw;
   position:fixed;
-  left: 44vw;
+  left: 45vw;
   top: 17vw;
   z-index: 14;
   height: 10vw;
@@ -154,24 +152,9 @@ h1{
   background-image: url(images/chicken.svg);
   background-repeat: no-repeat;
   background-color: #FFFFFF;
-  transition: 0.1s;
+  transition: 1s;
 }
-
 .image6 {
-  background-size: 10vw;
-  position:fixed;
-  left: 45vw;
-  top: 19vw;
-  z-index: 14;
-  height: 10vw;
-  width: 10vw;
-  background-image: url(images/paws.svg);
-  background-repeat: no-repeat;
-  background-color: #FFFFFF;
-  transition: 0.1s;
-}
-
-.image7 {
   background-size: 10vw;
   position:fixed;
   left: 46vw;
@@ -179,11 +162,318 @@ h1{
   z-index: 14;
   height: 10vw;
   width: 10vw;
+  background-image: url(images/paws.svg);
+  background-repeat: no-repeat;
+  background-color: #FFFFFF;
+  transition: 1s;
+}
+.image7 {
+  background-size: 10vw;
+  position:fixed;
+  left: 46vw;
+  top: 20vw;
+  z-index: 14;
+  height: 10vw;
+  width: 10vw;
   background-image: url(images/2.svg);
   background-repeat: no-repeat;
   background-color: #FFFFFF;
-  transition: 0.1s;
+  transition: 1s;
 }
+
+.image8 {
+  background-size: 10vw;
+  position:fixed;
+  left: 46vw;
+  top: 20vw;
+  z-index: 13;
+  height: 10vw;
+  width: 10vw;
+  background-image: url(images/chicken.svg);
+  background-repeat: no-repeat;
+  background-color: #FFFFFF;
+  transition: 1s;
+}
+.image9 {
+  background-size: 10vw;
+  position:fixed;
+  left: 45vw;
+  top: 17vw;
+  z-index: 13;
+  height: 10vw;
+  width: 10vw;
+  background-image: url(images/paws.svg);
+  background-repeat: no-repeat;
+  background-color: #FFFFFF;
+  transition: 1s;
+}
+.image10 {
+  background-size: 10vw;
+  position:fixed;
+  left: 46vw;
+  top: 17vw;
+  z-index: 13;
+  height: 10vw;
+  width: 10vw;
+  background-image: url(images/2.svg);
+  background-repeat: no-repeat;
+  background-color: #FFFFFF;
+  transition: 1s;
+}
+.image11 {
+  background-size: 10vw;
+  position:fixed;
+  left: 43vw;
+  top: 18vw;
+  z-index: 13;
+  height: 10vw;
+  width: 10vw;
+  background-image: url(images/1.svg);
+  background-repeat: no-repeat;
+  background-color: #FFFFFF;
+  transition: 1s;
+}
+
+.image12 {
+  background-size: 10vw;
+  position:fixed;
+  left: 45vw;
+  top: 20vw;
+  z-index: 12;
+  height: 10vw;
+  width: 10vw;
+  background-image: url(images/paws.svg);
+  background-repeat: no-repeat;
+  background-color: #FFFFFF;
+  transition: 1s;
+}
+.image13 {
+  background-size: 10vw;
+  position:fixed;
+  left: 46vw;
+  top: 20vw;
+  z-index: 12;
+  height: 10vw;
+  width: 10vw;
+  background-image: url(images/2.svg);
+  background-repeat: no-repeat;
+  background-color: #FFFFFF;
+  transition: 1s;
+}
+.image14 {
+  background-size: 10vw;
+  position:fixed;
+  left: 43vw;
+  top: 17vw;
+  z-index: 12;
+  height: 10vw;
+  width: 10vw;
+  background-image: url(images/1.svg);
+  background-repeat: no-repeat;
+  background-color: #FFFFFF;
+  transition: 1s;
+}
+
+.image15 {
+  background-size: 10vw;
+  position:fixed;
+  left: 45vw;
+  top: 17vw;
+  z-index: 13;
+  height: 10vw;
+  width: 10vw;
+  background-image: url(images/paws.svg);
+  background-repeat: no-repeat;
+  background-color: #FFFFFF;
+  transition: 1s;
+}
+.image16 {
+  background-size: 10vw;
+  position:fixed;
+  left: 46vw;
+  top: 17vw;
+  z-index: 13;
+  height: 10vw;
+  width: 10vw;
+  background-image: url(images/2.svg);
+  background-repeat: no-repeat;
+  background-color: #FFFFFF;
+  transition: 1s;
+}
+.image17 {
+  background-size: 10vw;
+  position:fixed;
+  left: 43vw;
+  top: 18vw;
+  z-index: 13;
+  height: 10vw;
+  width: 10vw;
+  background-image: url(images/1.svg);
+  background-repeat: no-repeat;
+  background-color: #FFFFFF;
+  transition: 1s;
+}
+.image18 {
+  background-size: 10vw;
+  position:fixed;
+  left: 45vw;
+  top: 20vw;
+  z-index: 12;
+  height: 10vw;
+  width: 10vw;
+  background-image: url(images/paws.svg);
+  background-repeat: no-repeat;
+  background-color: #FFFFFF;
+  transition: 1s;
+}
+.image19 {
+  background-size: 10vw;
+  position:fixed;
+  left: 46vw;
+  top: 20vw;
+  z-index: 12;
+  height: 10vw;
+  width: 10vw;
+  background-image: url(images/2.svg);
+  background-repeat: no-repeat;
+  background-color: #FFFFFF;
+  transition: 1s;
+}
+
+.image20 {
+  background-size: 10vw;
+  position:fixed;
+  left: 43vw;
+  top: 17vw;
+  z-index: 11;
+  height: 10vw;
+  width: 10vw;
+  background-image: url(images/1.svg);
+  background-repeat: no-repeat;
+  background-color: #FFFFFF;
+  transition: 1s;
+}
+.image21 {
+  background-size: 10vw;
+  position:fixed;
+  left: 45vw;
+  top: 17vw;
+  z-index: 11;
+  height: 10vw;
+  width: 10vw;
+  background-image: url(images/paws.svg);
+  background-repeat: no-repeat;
+  background-color: #FFFFFF;
+  transition: 1s;
+}
+.image22 {
+  background-size: 10vw;
+  position:fixed;
+  left: 46vw;
+  top: 17vw;
+  z-index: 11;
+  height: 10vw;
+  width: 10vw;
+  background-image: url(images/2.svg);
+  background-repeat: no-repeat;
+  background-color: #FFFFFF;
+  transition: 1s;
+}
+.image23 {
+  background-size: 10vw;
+  position:fixed;
+  left: 43vw;
+  top: 18vw;
+  z-index: 11;
+  height: 10vw;
+  width: 10vw;
+  background-image: url(images/1.svg);
+  background-repeat: no-repeat;
+  background-color: #FFFFFF;
+  transition: 1s;
+}
+
+.image24 {
+  background-size: 10vw;
+  position:fixed;
+  left: 45vw;
+  top: 20vw;
+  z-index: 10;
+  height: 10vw;
+  width: 10vw;
+  background-image: url(images/paws.svg);
+  background-repeat: no-repeat;
+  background-color: #FFFFFF;
+  transition: 1s;
+}
+.image25 {
+  background-size: 10vw;
+  position:fixed;
+  left: 46vw;
+  top: 20vw;
+  z-index: 10;
+  height: 10vw;
+  width: 10vw;
+  background-image: url(images/2.svg);
+  background-repeat: no-repeat;
+  background-color: #FFFFFF;
+  transition: 1s;
+}
+.image26 {
+  background-size: 10vw;
+  position:fixed;
+  left: 46vw;
+  top: 17vw;
+  z-index: 10;
+  height: 10vw;
+  width: 10vw;
+  background-image: url(images/2.svg);
+  background-repeat: no-repeat;
+  background-color: #FFFFFF;
+  transition: 1s;
+}
+.image27 {
+  background-size: 10vw;
+  position:fixed;
+  left: 43vw;
+  top: 18vw;
+  z-index: 10;
+  height: 10vw;
+  width: 10vw;
+  background-image: url(images/1.svg);
+  background-repeat: no-repeat;
+  background-color: #FFFFFF;
+  transition: 1s;
+}
+
+.image28 {
+  background-size: 10vw;
+  position:fixed;
+  left: 45vw;
+  top: 20vw;
+  z-index: 9;
+  height: 10vw;
+  width: 10vw;
+  background-image: url(images/paws.svg);
+  background-repeat: no-repeat;
+  background-color: #FFFFFF;
+  transition: 1s;
+}
+.image29 {
+  background-size: 10vw;
+  position:fixed;
+  left: 46vw;
+  top: 20vw;
+  z-index: 9;
+  height: 10vw;
+  width: 10vw;
+  background-image: url(images/2.svg);
+  background-repeat: no-repeat;
+  background-color: #FFFFFF;
+  transition: 1s;
+}
+
+
 
 .i {
   height: 500vh;
@@ -197,3 +487,57 @@ h1{
 #image3 {
   position: fixed;
 }
+
+.galleryscroll{
+  position:fixed;
+  z-index: 30;
+  height: 100vh;
+  width: 100vw;
+  background-image:url(images/background_1.gif);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.galleryscroll h1{
+  color: #000000;
+  text-align:center;
+  position: fixed;
+  top: 50vw;
+  font-size: 10vw;
+}
+
+.gg{
+  z-index: 31;
+  width: 10vw;
+  height: 10vw;
+  background-color:#FFFFFF;
+  position: fixed;
+  top: 30vw;
+}
+
+/* .image11 {
+  width: 10vw;
+  height: 10vw;
+  background-image: url(images/chicken.svg);
+  background-repeat: no-repeat;
+}
+
+.image12 {
+  width: 10vw;
+  height: 10vw;
+  background-image: url(images/paws.svg);
+  background-repeat: no-repeat;
+}
+
+.image13 {
+  width: 10vw;
+  height: 10vw;
+  background-image: url(images/2.svg);
+  background-repeat: no-repeat;
+}
+.image14 {
+  width: 10vw;
+  height: 10vw;
+  background-image: url(images/1.svg);
+  background-repeat: no-repeat;
+
+} */
