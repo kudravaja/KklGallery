@@ -349,17 +349,17 @@
 
   $(document).ready(function() {
     $('.gg').click( function () {
-      let galleryscroll2 = $('<div class="galleryscroll"> <h1>test</h1> </div> </div>');
+      let galleryscroll2 = '<div class="galleryscroll"> <h1>test</h1> </div>';
       $('.galleryscroll').append(galleryscroll2);
       // setTimeout( function() { galleryscroll.remove(); }, 500);
     });
   });
 
-  $(document).ready(function(){
-    $(".gg").click(function(){
-      $('#one').remove(".galleryscroll");
-    });
-  });
+  // $(document).ready(function(){
+  //   $(".gg").click(function(){
+  //     $('#one').remove("galleryscroll");
+  //   });
+  // });
 
     // $(document).ready(function() {
     //   $('.slider').slick({
